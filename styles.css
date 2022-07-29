@@ -115,3 +115,47 @@ body {
   color: var(--very-dark-cyan);
   font-size: 1rem;
 }
+/* ================ HERO SECTION ================ */
+/* ================ SERVICES SECTION ================ */
+
+.grow-together {
+  margin: 200px 0;
+  /* padding: 50px 0; */
+  background-color: var(--very-pale-blue);
+}
+
+.grow-together svg {
+  display: block;
+  width: 100%;
+}
+
+.upper-curve,
+.bottom-curve {
+  background-color: white;
+}
+
+.service {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 150px;
+}
+
+.service img {
+  width: 40%;
+}
+
+.service-heading {
+  font-size: 1.5rem;
+  color: var(--very-dark-cyan);
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+
+.service-desc {
+  font-size: 1rem;
+  color: var(--very-dark-cyan);
+  line-height: 1.3;
+}
