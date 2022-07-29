@@ -1,0 +1,44 @@
+/* CSS VARIABLES */
+:root {
+  --pink: hsl(322, 100%, 66%);
+  --light-pink: hsl(321, 100%, 78%);
+  --light-red: hsl(0, 100%, 63%);
+
+  --very-dark-cyan: hsl(192, 100%, 9%);
+  --very-pale-blue: hsl(207, 100%, 98%);
+
+  --border-radius-btns: 20px;
+}
+
+/* GENERAL CSS */
+/* font-family: 'Poppins', sans-serif; HEADINGS */
+/* font-family: "Open Sans", sans-serif; BODY */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar img {
+  width: 80%;
+}
+
+.nav-btn {
+  background-color: transparent;
+  border: 1px solid var(--pink);
+  color: var(--pink);
+  padding: 7px 20px;
+  border-radius: var(--border-radius-btns);
+}
+
+.nav-btn:hover {
+  cursor: pointer;
+  border-color: var(--light-pink);
+  color: var(--light-pink);
+}
